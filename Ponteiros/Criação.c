@@ -1,6 +1,6 @@
 // A ideia do ponteiro serve para que possamos estabelecer uma relação mais proxima entre
 // as FUNÇÕES e a MAIN;
-// A ideia é que possamos passar da função para a main ou da main para a função o endereço 
+// A ideia é que podemos passar, da função para a main ou da main para a função, o endereço 
 // em que está a informação;
 // Com isso, a informação pode ser alterada, por exemplo, na função e a main receber essa 
 // mudança sem termos que atualiza-la manualmente;
@@ -11,7 +11,7 @@
 int main(){
     int c;
     printf("Digite um numero: ");
-    scanf("%d",&c); //Traduzindo == O numero "%d" será guardado no endereço de memoria &c;
+    scanf("%d",&c); //Traduzindo ==> O numero "%d" será guardado no endereço de memoria &c;
 }
 
 // Para criamos um PONTEIRO devemos criar uma variavel e usar-mos o * a esquerda; 
